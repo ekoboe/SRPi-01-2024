@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IoT Control</title>
+
+    <! -- STYLE CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<div class="container">
+
+    <div class="sidebar">
+        <div class="header">
+            <div class="list-item">
+                <span class="description-header">BBPPMPV BOE</span>
+                </a>
+            </div>
+            <div class="illustration">
+                <img src="/static/img/tut.png" style="width:100px; height:100px;" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="list-item">
+                <a href="/monitoring">
+                    <img src="/static/img/sensor.png" style="width:20px; height:20px;" alt="" class="icon">
+                </a>
+                <span class="description" style="margin-left:10px">Monitoring</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="bodyHeader"><h1>INTERNET OF THINGS DASHBOARD</h1></div>
+
+        <div class="card-container">
+
+            <div class="main-card">
+                <h3>CARD A</h3>
+                <div class="Sensor_A">
+                    <img src="/static/img/temp.png" alt="" class="icon">
+                    <h7 id="temperature">00.00 °C</h7>
+                </div>
+                <div class="Sensor_B">
+                    <img src="/static/img/kelembapan.png" alt="" class="icon">
+                    <h7 id="humidity">00.00 %</h7>
+                </div>
+            </div>
+
+            <div class="main-card">
+                <h3>CARD B</h3>
+                <div class="Sensor_A" style="margin-top: 5%; padding: 5px;">
+                    <img src="/static/img/temp.png" alt="" class="icon">
+                    <h7 id="current">00.00 A</h7>
+                </div>
+                <div class="Sensor_B" style="margin-top: 5%; padding: 5px;">
+                    <img src="/static/img/kelembapan.png" alt="" class="icon">
+                    <h7 id="voltage">00.00 V</h7>
+                </div>
+                <div class="Sensor_A" style="margin-top: 5%; padding: 5px;">
+                    <img src="/static/img/watt.png" alt="" class="icon">
+                    <h7 id="ActivePower">00.00 W</h7>
+                </div>
+                <div class="Sensor_B" style="margin-top: 5%; padding: 5px;">
+                    <img src="/static/img/kwh.png" alt="" class="icon">
+                    <h7 id="ActiveEnergy">00.00 Wh</h7>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</html>
+
+<script src="/static/main.js"></script>
